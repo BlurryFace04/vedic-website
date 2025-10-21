@@ -82,8 +82,8 @@ p.lead{color:#334155;max-width:800px}
 @media (max-width: 900px){
   .contact{grid-template-columns:1fr}
   .people{grid-template-columns:1fr}
-  .person{flex-direction:column;text-align:center;gap:16px}
-  .avatar{width:80px;height:80px;margin:0 auto}
+  .person{flex-direction:column;text-align:left;gap:16px}
+  .avatar{width:80px;height:80px;margin:0}
 }
 label{display:block;font-size:14px;margin:8px 0 6px;color:#334155}
 input, textarea{width:100%;background:#fff;color:#0f172a;border:1px solid var(--line);border-radius:8px;padding:10px;outline:none}
